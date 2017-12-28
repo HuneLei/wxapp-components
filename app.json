@@ -1,5 +1,5 @@
 {
-  "pages": [            
+  "pages": [
     "pages/index/index",
     "pages/button/index",
     "pages/row/index",
@@ -14,7 +14,8 @@
     "pages/nav/index",
     "pages/shoppingCart/index",
     "pages/collapse/index",
-    "pages/order/index"    
+    "pages/order/index",
+    "pages/carousel/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

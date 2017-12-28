@@ -1,7 +1,4 @@
 <view class="container">
-  <view class="logo-view">
-    <image src="../../images/logo.png"></image>
-  </view>
   <view class="sim-row" bindtap="navigateTo" data-url="../label/index">
     <text>标签</text>
     <text class="fa fa-angle-right"></text>
@@ -59,6 +56,10 @@
     </view>
     <view class="sim-list-item" bindtap="navigateTo" data-url="../collapse/index">
       <text>折叠框</text>
+      <text class="fa fa-angle-right"></text>
+    </view>
+    <view class="sim-list-item" bindtap="navigateTo" data-url="../carousel/index">
+      <text>轮播图</text>
       <text class="fa fa-angle-right"></text>
     </view>
   </view>  
