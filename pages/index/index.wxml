@@ -19,6 +19,10 @@
     <text>图标</text>
     <text class="fa fa-angle-right"></text>
   </view>
+   <view class="sim-row" bindtap="navigateTo" data-url="../carousel/index">
+      <text>轮播图</text>
+      <text class="fa fa-angle-right"></text>
+    </view>
   <view class="sim-list">
     <view class="sim-list-item" bindtap="navigateTo" data-url="../row/index">
       <text>行</text>
@@ -56,10 +60,6 @@
     </view>
     <view class="sim-list-item" bindtap="navigateTo" data-url="../collapse/index">
       <text>折叠框</text>
-      <text class="fa fa-angle-right"></text>
-    </view>
-    <view class="sim-list-item" bindtap="navigateTo" data-url="../carousel/index">
-      <text>轮播图</text>
       <text class="fa fa-angle-right"></text>
     </view>
   </view>  
