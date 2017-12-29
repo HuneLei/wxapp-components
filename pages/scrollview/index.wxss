@@ -1,0 +1,38 @@
+/* pages/scrollview/index.wxss */
+.bc_green {
+  background-color: green;
+  flex-direction: row;
+}
+.scroll-view_H {
+  display: flex;
+}
+.bc_red {
+  background-color: red
+}
+.bc_yellow {
+  background-color: yellow
+}
+.bc_blue {
+  background-color: blue
+}
+.scroll-view-item {
+  width: 120%;
+  height: 100px;
+}
+.btn-area button {
+  display: block;
+  margin:5px;
+}
+.section__title {
+  font-size:16px;
+  margin:10px;
+}
+.scroll-view-item_H {
+  width: 100px;
+  height:177px;
+  /* flex-direction:row; */
+  /* float:left; */
+}
+.section_gap {
+  margin: 10px;
+}

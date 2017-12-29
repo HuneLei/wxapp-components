@@ -1,2 +1,4 @@
 /* pages/carousel/index.wxss */
-.slide-image {}
+.slide-image {
+  display: inline;
+}

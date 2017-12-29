@@ -15,7 +15,10 @@
     "pages/shoppingCart/index",
     "pages/collapse/index",
     "pages/order/index",
-    "pages/carousel/index"
+    "pages/carousel/index",
+    "pages/scrollview/index",
+    "pages/view/index",
+    "pages/movableview/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

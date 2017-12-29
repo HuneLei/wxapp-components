@@ -1,0 +1,36 @@
+<view class="section">
+  <view class="section__title">vertical scroll</view>
+  <scroll-view scroll-y scroll-x style="height: 200px;" bindscrolltoupper="upper" bindscrolltolower="lower" bindscroll="scroll" scroll-into-view="{{toView}}" scroll-top="{{scrollTop}}">
+    <view id="green" class="scroll-view-item bc_green"></view>
+    <view id="red"  class="scroll-view-item bc_red"></view>
+    <view id="yellow" class="scroll-view-item bc_yellow"></view>
+    <view id="blue" class="scroll-view-item bc_blue"></view>
+  </scroll-view>
+
+  <view class="btn-area">
+    <button size="mini" bindtap="tap">click me to scroll into view </button>
+    <button size="mini" bindtap="tapMove">click me to scroll</button>
+  </view>
+</view>
+<view class="section section_gap">
+  <view class="section__title">horizontal scroll</view>
+  <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+    <view id="green" class="scroll-view-item_H bc_green"></view>
+    <view id="red"  class="scroll-view-item_H bc_red"></view>
+    <view id="yellow" class="scroll-view-item_H bc_yellow"></view>
+    <view id="blue" class="scroll-view-item_H bc_blue"></view>
+  </scroll-view>
+</view>
+
+<!-- scroll-x	Boolean	false	允许横向滚动
+scroll-y	Boolean	false	允许纵向滚动
+upper-threshold	Number	50	距顶部/左边多远时（单位px），触发 scrolltoupper 事件
+lower-threshold	Number	50	距底部/右边多远时（单位px），触发 scrolltolower 事件
+scroll-top	Number		设置竖向滚动条位置
+scroll-left	Number		设置横向滚动条位置
+scroll-into-view	String		值应为某子元素id（id不能以数字开头）。设置哪个方向可滚动，则在哪个方向滚动到该元素
+scroll-with-animation	Boolean	false	在设置滚动条位置时使用动画过渡
+enable-back-to-top	Boolean	false	iOS点击顶部状态栏、安卓双击标题栏时，滚动条返回顶部，只支持竖向
+bindscrolltoupper	EventHandle		滚动到顶部/左边，会触发 scrolltoupper 事件
+bindscrolltolower	EventHandle		滚动到底部/右边，会触发 scrolltolower 事件
+bindscroll	EventHandle		滚动时触发，event.detail = {scrollLeft, scrollTop, scrollHeight, scrollWidth, deltaX, deltaY} -->
